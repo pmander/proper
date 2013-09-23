@@ -37,7 +37,8 @@
 
 -export_type([]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%------------------------------------------------------------------------------

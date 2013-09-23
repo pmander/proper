@@ -144,7 +144,8 @@
 
 -export_type([var_values/0]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%------------------------------------------------------------------------------

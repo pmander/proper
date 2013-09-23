@@ -154,7 +154,8 @@
 -export([command/1, precondition/2, next_state/3, postcondition/3]).
 -export([target_states/4]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %% -----------------------------------------------------------------------------

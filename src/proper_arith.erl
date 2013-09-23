@@ -35,7 +35,8 @@
 	 rand_float/1, rand_float/2, rand_non_neg_float/1,
 	 distribute/2, jumble/1, rand_choose/1, freq_choose/1]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%-----------------------------------------------------------------------------

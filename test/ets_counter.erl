@@ -22,6 +22,7 @@
 %%% @author Eirini Arvaniti
 
 -module(ets_counter).
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -compile(export_all).

@@ -28,6 +28,7 @@
 -compile(export_all).
 -compile([{no_auto_import,[hd/1]}]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -type foo() :: atom().

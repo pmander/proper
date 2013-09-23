@@ -28,6 +28,7 @@
 	 postcondition/5, next_state_data/5, empty_pdict/1, non_empty_pdict/1]).
 -export([set_up/0, clean_up/0]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -define(KEYS, [a,b,c,d]).

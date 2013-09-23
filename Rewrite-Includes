@@ -1,0 +1,21 @@
+
+Match='^-include("proper_internal[.]hrl").' ;   
+Common='-include_lib("proper/include/proper_common.hrl").' ;  
+Internal='-include_lib("proper/include/proper_internal.hrl").' ;
+for Each in src/*.erl ;
+do cp "$Each" tmp ;
+   sed "s;${Match};${Common}\n${Internal};" < tmp > "$Each" ;
+done ;
+   
+Match='^-include_lib("proper/include/proper[.]hrl").';
+Common='-include_lib("proper/include/proper_common.hrl").' ;
+Proper='-include_lib("proper/include/proper.hrl").' ;
+for Each in {examples,test}/*.erl ;
+do cp "$Each" tmp ;
+   sed "s;${Match};${Common}\n${Proper};" < tmp > "$Each" ;
+done ;
+   
+for Each in include/*.hrl ;
+do cp "$Each" tmp ;
+   sed "/^-include/d" < tmp > "$Each" ;
+done ;

@@ -23,6 +23,7 @@
 -module(perf_max_size).
 -export([prop_identity/0]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -record(msg, {a = 0 :: 0..16#ffffffff, b = 0 :: 0..16#f}).

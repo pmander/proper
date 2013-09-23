@@ -27,7 +27,8 @@
 -module(vararg).
 -export([parse_transform/2]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 %% 'MAKE_FUN'(Arity,Handler,Err) will be replaced with this case clause:
 %%    case Arity of

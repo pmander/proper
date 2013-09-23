@@ -31,6 +31,7 @@
 
 %% NOTE: You don't need to include the proper header if no properties are
 %%	 declared in the module.
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 %% NOTE: Every instance of the ADT in a spec must have variables as parameters.

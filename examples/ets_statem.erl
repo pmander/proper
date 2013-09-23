@@ -29,6 +29,7 @@
 	 precondition/2, postcondition/3, next_state/3]).
 -export([sample_commands/0]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -type object()     :: tuple().

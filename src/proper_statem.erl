@@ -224,7 +224,8 @@
 	 run_parallel_commands/3]).
 -export([state_after/2, command_names/1, zip/2]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 -define(WORKERS, 2).
 -define(LIMIT, 12).
