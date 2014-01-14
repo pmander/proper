@@ -28,6 +28,7 @@
 
 -define(PROPER_NO_TRANS, true).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 prop_1() -> ?FORALL(_, types_test1:exp1(), true).

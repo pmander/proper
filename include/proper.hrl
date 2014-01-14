@@ -25,7 +25,6 @@
 
 -compile(debug_info).
 
--include_lib("proper/include/proper_common.hrl").
 
 -ifndef(PROPER_NO_IMPORTS).
 

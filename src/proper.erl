@@ -362,7 +362,8 @@
 
 -export_type([test/0, outer_test/0, counterexample/0, exception/0, false_positive_mfas/0]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%-----------------------------------------------------------------------------

@@ -29,6 +29,7 @@
 -export([initial_state/0, command/1, precondition/2, postcondition/3,
 	 next_state/3]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -define(KEYS, [a,b,c,d]).

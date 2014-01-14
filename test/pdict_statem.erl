@@ -28,6 +28,7 @@
 	next_state/3]).
 -export([set_up/0, clean_up/0]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -define(KEYS, [a,b,c,d]).

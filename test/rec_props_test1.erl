@@ -26,6 +26,7 @@
 -module(rec_props_test1).
 -export_type([exp1/0]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -type exp1() :: integer().

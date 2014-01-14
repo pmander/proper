@@ -161,7 +161,8 @@
 
 -export_type([type/0, raw_type/0, extint/0, extnum/0]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%------------------------------------------------------------------------------

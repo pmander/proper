@@ -25,6 +25,7 @@
 -module(b64).
 -export([prop_enc_dec/0]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 prop_enc_dec() ->

@@ -46,7 +46,8 @@
 -export_type([instance/0, imm_instance/0, sized_generator/0, nosize_generator/0,
 	      generator/0, reverse_gen/0, combine_fun/0, alt_gens/0]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 -compile({parse_transform, vararg}).
 
 

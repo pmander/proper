@@ -169,7 +169,8 @@
 
 -export_type([imm_type/0, mod_exp_types/0, mod_exp_funs/0]).
 
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%------------------------------------------------------------------------------

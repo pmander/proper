@@ -25,6 +25,7 @@
 -module(no_out_of_forall_test).
 -export([]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 foo() -> ?LET(X, types_test1:exp1(), {42,X}).

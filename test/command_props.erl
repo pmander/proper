@@ -23,6 +23,7 @@
 
 -module(command_props).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 -define(MOD, ets_counter).
 -define(MOD1, pdict_statem).

@@ -25,6 +25,7 @@
 -behaviour(gen_fsm).
 -behaviour(proper_fsm).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -export([init/1, handle_event/3, handle_sync_event/4, handle_info/3,

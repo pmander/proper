@@ -36,6 +36,7 @@
 	 prop_secret_combination_is_not_discarded/1,
 	 prop_invalidated_instances_reject_original_secret/1]).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 

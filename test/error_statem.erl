@@ -24,6 +24,7 @@
 -module(error_statem).
 -compile(export_all).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -record(state, {step = 0}).

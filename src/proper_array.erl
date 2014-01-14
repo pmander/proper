@@ -49,7 +49,8 @@
 
 %% This header is only included so that the strip_types parse transform will be
 %% applied to this file as well.
--include("proper_internal.hrl").
+-include_lib("proper/include/proper_common.hrl").
+-include_lib("proper/include/proper_internal.hrl").
 
 
 %%------------------------------------------------------------------------------

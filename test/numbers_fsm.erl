@@ -25,6 +25,7 @@
 -module(numbers_fsm).
 -compile(export_all).
 
+-include_lib("proper/include/proper_common.hrl").
 -include_lib("proper/include/proper.hrl").
 
 -define(STATES, [zero, one, two, three, four]).
